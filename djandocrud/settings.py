@@ -82,7 +82,7 @@ WSGI_APPLICATION = 'djandocrud.wsgi.application'
 
 DATABASES = {
     'default': dj_database_url.config(
-        default='postgressql://postgres@localhost/postgres',
+        default='postgresql://postgres@localhost/postgres',
         conn_max_age=600
     )
 }
